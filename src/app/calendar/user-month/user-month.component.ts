@@ -10,11 +10,11 @@ export interface MonthDays{
 export const WeekDays=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
 
 @Component({
-  selector: 'app-month',
-  templateUrl: './month.component.html',
-  styleUrls: ['./month.component.sass']
+  selector: 'app-user-month',
+  templateUrl: './user-month.component.html',
+  styleUrls: ['./user-month.component.sass']
 })
-export class MonthComponent implements OnInit {
+export class UserMonthComponent implements OnInit {
   // weekdayInitial: string ='';
   // weekdayDate: number = 1;
   monthDays: MonthDays[] = [];

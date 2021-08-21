@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CalendarComponent } from './calendar/calendar.component';
 import { MonthComponent } from './calendar/month/month.component';
+import { UserMonthComponent } from './calendar/month/user-month.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     CalendarComponent,
-    MonthComponent
+    MonthComponent,
+    UserMonthComponent,
   ],
   imports: [
     BrowserModule,
